@@ -1,18 +1,3 @@
-#def track_change(func):
-#    def wrapper(*args, **kwargs):
-#        result = func(*args, *kwargs)
-#        print(f"[STOCK] {result}")
-#        return result
-#        
-#
-#        return result
-#    return wrapper
-#class Supply:
-#    def __init__(self, name, unit_price, stock):
-#        self.name = name
-#        self.unit_price = unit_price
-#        self.stock = stock
-
 def track_change(func):
     def wrapper(*args, **kwargs):
         result = func(*args, **kwargs)
